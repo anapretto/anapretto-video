@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: 'Sora', sans-serif !important;
+}
+
+.degrade{
+    background: linear-gradient(270deg, #9351e2 0%, #7588f5 100%);
+    background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.btn-degrade {
+    background: linear-gradient(270deg, #9351e2 0%, #7588f5 100%);
+    color: #fff !important;
+}
+
+.btn-degrade:hover {
+    background: linear-gradient(270deg, #a46ce9 0%, #91a2ff 100%);
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* estilos para o modo noturno */
+body[data-bs-theme='dark'] .btn-outline-dark {
+    border-color: #fff; /* Define a cor da borda para branco */
+    color: #fff; /* Define a cor do texto para branco */
+}
+body[data-bs-theme='dark'] .btn-outline-dark:hover {
+    background-color: #fff; /* Cor de fundo ao passar o mouse no modo noturno */
+    color: #000; /* Cor de texto ao passar o mouse no modo noturno */
+}
+
+#portfolioTabs .nav-link.active {
+    background: linear-gradient(270deg, #9351e2 0%, #7588f5 100%);
+    color: #fff !important;
+}
